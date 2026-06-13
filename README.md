@@ -15,8 +15,6 @@
 
 <br/>
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/elderly-fall-detection?style=social)](https://github.com/Haridharan1412/elderly-fall-detection/stargazers)
-
 </div>
 
 ---
