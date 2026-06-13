@@ -12,12 +12,9 @@
 [![Arduino](https://img.shields.io/badge/Platform-ESP8266-blue?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/)
 [![Blynk](https://img.shields.io/badge/Cloud-Blynk%20IoT-00C853?style=for-the-badge)](https://blynk.io/)
 [![Sensor](https://img.shields.io/badge/Sensor-MPU6050-FF6F00?style=for-the-badge&logo=adafruit&logoColor=white)](https://invensense.tdk.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)]()
 
 <br/>
 
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=elderly-fall-detection-system)
 [![GitHub stars](https://img.shields.io/github/stars/yourusername/elderly-fall-detection?style=social)](https://github.com/yourusername/elderly-fall-detection/stargazers)
 
 </div>
