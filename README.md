@@ -123,12 +123,6 @@ graph TD
 
 <div align="center">
 
-### ESP8266 NodeMCU
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/NodeMCU_DEVKIT_1.0.jpg/320px-NodeMCU_DEVKIT_1.0.jpg" width="220" alt="ESP8266 NodeMCU"/>
-
-### MPU6050 (GY-521)
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/MPU-6050_Inertial_Measurement_Unit_%28IMU%29_Sensor_Module.jpg/320px-MPU-6050_Inertial_Measurement_Unit_%28IMU%29_Sensor_Module.jpg" width="220" alt="MPU6050 Sensor"/>
-
 </div>
 
 ---
@@ -218,8 +212,6 @@ Blynk receives the data spike and notifies the caregiver's app instantly.
 
 ---
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
 ## 🔄 Project Workflow
 
 ```mermaid
@@ -251,8 +243,6 @@ flowchart TD
 ```
 
 ---
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ## 🚀 Setup Guide
 
