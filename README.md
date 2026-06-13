@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Elderly%20Fall%20Detection%20System&fontSize=40&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Real-Time%20IoT%20Safety%20Guardian%20Powered%20by%20ESP8266%20%2B%20Blynk&descAlignY=60&descSize=15" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=800&color=00D4FF&center=true&vCenter=true&multiline=true&width=800&height=80&lines=⚡+Detects+Falls+in+Real-Time;📡+Sends+Instant+Alerts+to+Caregivers;🏥+Keeping+Elderly+Safe+with+IoT)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=800&color=00D4FF&center=true&vCenter=true&multiline=true&width=800&height=80&lines=⚡+Detects+Falls+in+Real-Time;📡+Sends+Instant+Alerts+to+Caregivers)](https://git.io/typing-svg)
 
 
 <br/>
