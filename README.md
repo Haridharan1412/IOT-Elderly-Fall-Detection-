@@ -42,9 +42,7 @@ The **Elderly Fall Detection System** straps onto the elderly person and uses th
 </td>
 <td width="45%" align="center">
 
-<img src="https://media.giphy.com/media/3o7TKSjRrfIPjeiVyM/giphy.gif" width="260" alt="Healthcare IoT"/>
 <br/><br/>
-<img src="https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif" width="260" alt="Sensor Monitoring"/>
 
 </td>
 </tr>
