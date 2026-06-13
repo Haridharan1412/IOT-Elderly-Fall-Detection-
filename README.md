@@ -22,7 +22,7 @@
 
 <table>
 <tr>
-<td width="55%">
+<td width="100%">
 
 Falls are the **#1 cause of injury** among elderly adults — and delayed response makes outcomes far worse. This project tackles that with a compact, low-cost IoT device.
 
