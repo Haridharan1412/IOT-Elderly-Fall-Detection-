@@ -265,25 +265,13 @@ AccelY:0.12, AccelZ:-9.78, GyroX:0.01, GyroY:0.02, GyroZ:-0.01
 
 ---
 
-## 📸 Demo & Output
+## Connection
 
 <div align="center">
 
-| Circuit Setup | Blynk Dashboard |
-|:---:|:---:|
-| ![Circuit](assets/images/circuit_setup.jpg) | ![Dashboard](assets/images/blynk_dashboard.jpg) |
-| *ESP8266 + MPU6050 wired on breadboard* | *Live sensor readings on Blynk app* |
-
-| Fall Alert Notification | Serial Monitor Output |
-|:---:|:---:|
-| ![Alert](assets/images/fall_alert.jpg) | ![Serial](assets/images/serial_output.jpg) |
-| *Push notification triggered on caregiver phone* | *115200 baud serial data stream* |
-
-> 📷 Replace image paths with your actual project photos.
+![Image Alt](https://github.com/Haridharan1412/IOT-Elderly-Fall-Detection-/blob/ab01cf05e2c0651d26edaa6f10d243467464dfe0/connection.png)
 
 <br/>
-
-<img src="https://media.giphy.com/media/077i6AULCXc0FKTj9s/giphy.gif" width="380" alt="IoT Dashboard Animation"/>
 
 </div>
 
