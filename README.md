@@ -295,8 +295,6 @@ AccelY:0.12, AccelZ:-9.78, GyroX:0.01, GyroY:0.02, GyroZ:-0.01
 
 ---
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
 ## 📸 Demo & Output
 
 <div align="center">
@@ -321,8 +319,6 @@ AccelY:0.12, AccelZ:-9.78, GyroX:0.01, GyroY:0.02, GyroZ:-0.01
 
 ---
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
 ## 🚀 Future Enhancements
 
 | Enhancement | Description |
@@ -337,45 +333,6 @@ AccelY:0.12, AccelZ:-9.78, GyroX:0.01, GyroY:0.02, GyroZ:-0.01
 ---
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
-## 📁 Folder Structure
-
-```
-elderly-fall-detection/
-├── 📄 README.md
-├── 📄 LICENSE
-├── 📁 src/
-│   └── final_iot.ino          # Main Arduino source code
-├── 📁 assets/
-│   └── images/                # Circuit & demo photos
-└── 📁 docs/
-    └── presentation.pptx      # Project presentation
-```
-
----
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
-## 👤 Author
-
-<div align="center">
-
-<img src="https://avatars.githubusercontent.com/yourusername" width="100" style="border-radius:50%" alt="avatar"/>
-
-### **Your Name**
-*IoT Developer · Embedded Systems · Healthcare Tech*
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
-
-</div>
-
----
-
-## 📄 License
-
-Licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
 
 <div align="center">
 
