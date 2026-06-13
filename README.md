@@ -5,9 +5,10 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=800&color=00D4FF&center=true&vCenter=true&multiline=true&width=800&height=80&lines=⚡+Detects+Falls+in+Real-Time;📡+Sends+Instant+Alerts+to+Caregivers;🏥+Keeping+Elderly+Safe+with+IoT)](https://git.io/typing-svg)
 
 
-
 <br/>
 
+
+---
 [![Arduino](https://img.shields.io/badge/Platform-ESP8266-blue?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/)
 [![Blynk](https://img.shields.io/badge/Cloud-Blynk%20IoT-00C853?style=for-the-badge)](https://blynk.io/)
 [![Sensor](https://img.shields.io/badge/Sensor-MPU6050-FF6F00?style=for-the-badge&logo=adafruit&logoColor=white)](https://invensense.tdk.com/)
