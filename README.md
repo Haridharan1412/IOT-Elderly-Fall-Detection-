@@ -159,7 +159,7 @@ ESP8266 NodeMCU              MPU6050 (GY-521)
 ### Step-by-Step Operation
 
 **1. Boot & Connect**
-ESP8266 connects to Wi-Fi (`Amit1`) and initializes MPU6050 over I2C. Serial monitor confirms both connections at 115200 baud.
+ESP8266 connects to Wi-Fi (`Hari1`) and initializes MPU6050 over I2C. Serial monitor confirms both connections at 115200 baud.
 
 **2. Motion Detection Setup**
 MPU6050 is configured with:
