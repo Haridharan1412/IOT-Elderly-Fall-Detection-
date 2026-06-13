@@ -300,8 +300,6 @@ AccelY:0.12, AccelZ:-9.78, GyroX:0.01, GyroY:0.02, GyroZ:-0.01
 | ☁️ **Analytics Dashboard** | Web dashboard with fall history, frequency charts, and health trends |
 | ⌚ **Wearable PCB** | Custom PCB + 3D-printed enclosure for a wristband form factor |
 
----
-
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 <div align="center">
