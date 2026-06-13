@@ -21,8 +21,7 @@
 ## 📌 About The Project
 
 <table>
-<td>
-
+    
 Falls are the **#1 cause of injury** among elderly adults — and delayed response makes outcomes far worse. This project tackles that with a compact, low-cost IoT device.
 
 The **Elderly Fall Detection System** straps onto the elderly person and uses the **MPU6050 IMU sensor** to track 6-axis motion data 10 times per second. When a sudden fall-like jolt is detected via a hardware motion interrupt, it instantly sends the sensor readings to the **Blynk IoT cloud** and pushes a **real-time alert** to the caregiver's smartphone.
@@ -35,12 +34,6 @@ The **Elderly Fall Detection System** straps onto the elderly person and uses th
 - Alert caregivers immediately via smartphone notifications
 - Keep hardware simple, affordable, and wearable
 
-</td>
-
-<br/><br/>
-
-</td>
-</tr>
 </table>
 
 ---
