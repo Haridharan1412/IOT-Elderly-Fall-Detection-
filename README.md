@@ -40,7 +40,6 @@ The **Elderly Fall Detection System** straps onto the elderly person and uses th
 - Keep hardware simple, affordable, and wearable
 
 </td>
-<td width="45%" align="center">
 
 <br/><br/>
 
