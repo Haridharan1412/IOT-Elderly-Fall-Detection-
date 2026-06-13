@@ -38,8 +38,6 @@ The **Elderly Fall Detection System** straps onto the elderly person and uses th
 
 ---
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
 ## ✨ Features
 
 <div align="center">
@@ -58,8 +56,6 @@ The **Elderly Fall Detection System** straps onto the elderly person and uses th
 </div>
 
 ---
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ## 🏗️ System Architecture
 
@@ -94,8 +90,6 @@ graph TD
 
 ---
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
 ## 🔧 Hardware Components
 
 <div align="center">
@@ -118,8 +112,6 @@ graph TD
 </div>
 
 ---
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ## 🔌 Circuit Connections
 
@@ -144,8 +136,6 @@ ESP8266 NodeMCU              MPU6050 (GY-521)
 
 ---
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
 ## 💻 Software & Libraries
 
 **IDE:** Arduino IDE 2.x + ESP8266 Board Package
@@ -159,8 +149,6 @@ ESP8266 NodeMCU              MPU6050 (GY-521)
 | `Wire.h` | I2C communication | Built-in |
 
 ---
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ## ⚙️ How It Works
 
