@@ -8,7 +8,8 @@
 <br/>
 
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
 [![Arduino](https://img.shields.io/badge/Platform-ESP8266-blue?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/)
 [![Blynk](https://img.shields.io/badge/Cloud-Blynk%20IoT-00C853?style=for-the-badge)](https://blynk.io/)
 [![Sensor](https://img.shields.io/badge/Sensor-MPU6050-FF6F00?style=for-the-badge&logo=adafruit&logoColor=white)](https://invensense.tdk.com/)
