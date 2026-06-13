@@ -1,627 +1,381 @@
 <div align="center">
 
-<!-- Animated Typing Banner -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00B4D8&center=true&vCenter=true&width=900&lines=🏥+Elderly+Fall+Detection+System;Real-Time+IoT+Safety+for+Elderly+People;ESP8266+%2B+MPU6050+%2B+Blynk+Platform;Instant+Caregiver+Alerts+via+Wi-Fi" alt="Typing SVG" /></a>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Elderly%20Fall%20Detection%20System&fontSize=40&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Real-Time%20IoT%20Safety%20Guardian%20Powered%20by%20ESP8266%20%2B%20Blynk&descAlignY=60&descSize=15" width="100%"/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=800&color=00D4FF&center=true&vCenter=true&multiline=true&width=800&height=80&lines=⚡+Detects+Falls+in+Real-Time;📡+Sends+Instant+Alerts+to+Caregivers;🏥+Keeping+Elderly+Safe+with+IoT)](https://git.io/typing-svg)
 
 <br/>
 
-# 🏥 Elderly Fall Detection System
-
-### *Smart IoT-powered real-time fall monitoring and instant caregiver alerting for elderly individuals*
-
-<br/>
-
-<!-- Badges -->
-![Arduino](https://img.shields.io/badge/Arduino-IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![ESP8266](https://img.shields.io/badge/ESP8266-NodeMCU-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![Blynk](https://img.shields.io/badge/Blynk-IoT_Platform-23C48E?style=for-the-badge&logo=blynk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-Embedded-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![IoT](https://img.shields.io/badge/IoT-Enabled-FF6B35?style=for-the-badge&logo=internetofthings&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-ESP8266-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
-![WiFi](https://img.shields.io/badge/WiFi-Enabled-4285F4?style=for-the-badge&logo=wifi&logoColor=white)
+[![Arduino](https://img.shields.io/badge/Platform-ESP8266-blue?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/)
+[![Blynk](https://img.shields.io/badge/Cloud-Blynk%20IoT-00C853?style=for-the-badge)](https://blynk.io/)
+[![Sensor](https://img.shields.io/badge/Sensor-MPU6050-FF6F00?style=for-the-badge&logo=adafruit&logoColor=white)](https://invensense.tdk.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)]()
 
 <br/>
 
-<!-- Tech Logos -->
-<p>
-  <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" width="60" title="Arduino"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/espressif-systems.svg" width="60" title="ESP8266"/>
-  &nbsp;&nbsp;
-  <img src="https://www.blynk.io/img/blynk-logo-2.png" width="100" title="Blynk"/>
-</p>
-
-<br/>
-
----
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=elderly-fall-detection-system)
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/elderly-fall-detection?style=social)](https://github.com/yourusername/elderly-fall-detection/stargazers)
 
 </div>
 
-## 📋 Table of Contents
+---
 
-- [🔍 Project Overview](#-project-overview)
-- [✨ Key Features](#-key-features)
-- [🏗️ System Architecture](#-system-architecture)
-- [🔧 Hardware Components](#-hardware-components)
-- [💻 Software & Libraries](#-software--libraries)
-- [⚙️ Working Principle](#-working-principle)
-- [🔌 Circuit Connections](#-circuit-connections)
-- [🚀 Installation & Setup](#-installation--setup)
-- [📁 Code Structure](#-code-structure)
-- [🔄 Project Workflow](#-project-workflow)
-- [📸 Results & Demonstration](#-results--demonstration)
-- [🌍 Applications](#-applications)
-- [🚀 Future Enhancements](#-future-enhancements)
-- [📂 Folder Structure](#-folder-structure)
-- [👤 Author](#-author)
-- [📄 License](#-license)
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 📌 About The Project
+
+<table>
+<tr>
+<td width="55%">
+
+Falls are the **#1 cause of injury** among elderly adults — and delayed response makes outcomes far worse. This project tackles that with a compact, low-cost IoT device.
+
+The **Elderly Fall Detection System** straps onto the elderly person and uses the **MPU6050 IMU sensor** to track 6-axis motion data 10 times per second. When a sudden fall-like jolt is detected via a hardware motion interrupt, it instantly sends the sensor readings to the **Blynk IoT cloud** and pushes a **real-time alert** to the caregiver's smartphone.
+
+**No manual reporting. No delays. Just instant protection.**
+
+### 🎯 Objectives
+- Monitor real-time acceleration and angular velocity
+- Detect abnormal motion patterns that indicate a fall
+- Alert caregivers immediately via smartphone notifications
+- Keep hardware simple, affordable, and wearable
+
+</td>
+<td width="45%" align="center">
+
+<img src="https://media.giphy.com/media/3o7TKSjRrfIPjeiVyM/giphy.gif" width="260" alt="Healthcare IoT"/>
+<br/><br/>
+<img src="https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif" width="260" alt="Sensor Monitoring"/>
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🔍 Project Overview
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## ✨ Features
 
 <div align="center">
 
-> *"Every 11 seconds, an older adult is treated in an emergency room for a fall. Falls are the leading cause of fatal and non-fatal injuries in people over 65."*
-> — **Centers for Disease Control and Prevention (CDC)**
+| Feature | Description |
+|:---:|:---|
+| ⚡ **Real-Time Detection** | MPU6050 hardware interrupt fires within milliseconds of a fall |
+| 📡 **Blynk IoT Cloud** | Live sensor data streamed to cloud via Wi-Fi every 100ms |
+| 🔔 **Push Notifications** | Instant alert delivered to caregiver's phone via Blynk app |
+| 📊 **Live Dashboard** | 5 sensor channels visualized live on the Blynk mobile dashboard |
+| 🧠 **Smart Filtering** | 0.63 Hz high-pass filter removes gravity drift; only real motion triggers |
+| 🔋 **Interrupt-Driven** | Hardware interrupt architecture — no wasted CPU cycles during inactivity |
+| 🔧 **Configurable** | Adjustable motion threshold (default: `1`) and duration (default: `20ms`) |
+| 📶 **Auto Reconnect** | Robust Wi-Fi + Blynk reconnection with serial diagnostics |
 
 </div>
 
-### 🚨 The Problem
-
-Falls among elderly individuals are a **critical global health challenge**:
-
-- 🏥 Falls account for **over 684,000 deaths annually** worldwide (WHO)
-- ⏰ Delayed assistance after a fall dramatically increases injury severity
-- 😟 Many elderly people live alone with **no immediate help nearby**
-- 💸 Fall-related injuries cost healthcare systems **billions annually**
-- 😰 Fear of falling reduces independence and quality of life
-
-### 💡 The Solution
-
-The **Elderly Fall Detection System** is a compact, low-cost IoT device worn on the body that:
-
-1. **Continuously monitors** body orientation, acceleration, and angular velocity using the **MPU6050 (6-axis IMU)**
-2. **Detects fall events** in real-time using motion interrupt thresholds and high-pass filtering
-3. **Instantly pushes alerts** to caregivers via the **Blynk IoT platform** over Wi-Fi
-4. **Streams live sensor data** (AccelY, AccelZ, GyroX, GyroY, GyroZ) to the Blynk dashboard
-5. Operates on the **ESP8266 Wi-Fi microcontroller** — lightweight, power-efficient, and affordable
-
 ---
 
-## ✨ Key Features
-
-| Feature | Description |
-|---|---|
-| 🎯 **Real-Time Fall Detection** | Motion interrupt-triggered detection using MPU6050 hardware interrupt |
-| 📡 **Wi-Fi Connectivity** | Seamless data transmission via ESP8266's built-in Wi-Fi module |
-| 📊 **Live Sensor Dashboard** | AccelY, AccelZ, GyroX, GyroY, GyroZ streamed to Blynk virtual pins |
-| 🔔 **Instant Caregiver Alerts** | Push notifications sent immediately upon fall detection |
-| 🔬 **6-Axis IMU Sensing** | 3-axis accelerometer + 3-axis gyroscope for precise motion analysis |
-| ⚡ **High-Pass Filter DSP** | 0.63 Hz high-pass filter removes gravity bias for accurate fall discrimination |
-| 🛡️ **Configurable Thresholds** | Motion detection threshold and duration are software-configurable |
-| 💰 **Low-Cost Implementation** | Built with off-the-shelf components totaling under ₹500 / $6 USD |
-| 🌐 **Cloud IoT Integration** | Data logged and visualised on Blynk cloud platform |
-| 🔄 **100ms Polling Rate** | Timer-based sensor polling at 100 ms intervals for responsiveness |
-
----
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ## 🏗️ System Architecture
 
 ```mermaid
 graph TD
-    A["👴 Elderly Person<br/>(Wears Device)"] --> B
+    A([👴 Elderly Person\nWears Device]) -->|Motion| B
 
-    subgraph HARDWARE["🔧 Hardware Layer"]
-        B["MPU6050<br/>6-Axis IMU Sensor<br/>(Accel + Gyro)"]
-        C["ESP8266 NodeMCU<br/>Wi-Fi Microcontroller"]
-        B -- "I²C (SDA/SCL)" --> C
+    subgraph HW ["🔧 Hardware"]
+        B[MPU6050 IMU\nAccelerometer + Gyroscope]
+        B -->|I2C SDA/SCL| C[ESP8266 NodeMCU\nMicrocontroller + Wi-Fi]
     end
 
-    subgraph FIRMWARE["⚙️ Firmware Layer"]
-        D["Motion Interrupt<br/>Detection"]
-        E["High-Pass Filter<br/>0.63 Hz"]
-        F["Threshold Check<br/>Duration: 20ms"]
-        G["Data Acquisition<br/>AccelY, AccelZ<br/>GyroX, GyroY, GyroZ"]
-        C --> D
-        D --> E
-        E --> F
-        F --> G
+    subgraph LOGIC ["⚙️ Detection Logic"]
+        C -->|100ms Timer Poll| D{Motion\nInterrupt?}
+        D -->|No| D
+        D -->|Yes ⚠️| E[Read 5 Sensor Axes\nAccelY/Z · GyroX/Y/Z]
     end
 
-    subgraph CLOUD["☁️ Cloud & Alert Layer"]
-        H["Blynk IoT Platform<br/>Virtual Pins V1-V5"]
-        I["📱 Caregiver<br/>Smartphone App"]
-        J["🔔 Push Notification<br/>/ Emergency Alert"]
-        G -- "Wi-Fi / HTTP" --> H
-        H --> I
-        H --> J
+    subgraph CLOUD ["☁️ Blynk IoT Cloud"]
+        E -->|Wi-Fi TCP| F[Blynk Server]
+        F --> G[Virtual Pins V1–V5\nLive Data]
+        F --> H[Event Logger\nREST API]
     end
 
-    style HARDWARE fill:#1a1a2e,stroke:#00B4D8,color:#fff
-    style FIRMWARE fill:#16213e,stroke:#00B4D8,color:#fff
-    style CLOUD fill:#0f3460,stroke:#00B4D8,color:#fff
+    G --> I([📱 Caregiver App\nLive Dashboard])
+    H --> J([🔔 Push Notification\nInstant Alert])
+
+    style HW fill:#1a1a2e,stroke:#00d4ff,color:#fff
+    style LOGIC fill:#16213e,stroke:#00d4ff,color:#fff
+    style CLOUD fill:#0f3460,stroke:#00d4ff,color:#fff
 ```
 
 ---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ## 🔧 Hardware Components
 
-| # | Component | Model | Purpose |
-|---|-----------|-------|---------|
-| 1 | **Microcontroller** | ESP8266 NodeMCU | Main processing unit + Wi-Fi communication |
-| 2 | **IMU Sensor** | MPU6050 | 3-axis accelerometer + 3-axis gyroscope for fall sensing |
-| 3 | **Prototyping Board** | Breadboard | Circuit assembly without soldering |
-| 4 | **Connecting Wires** | Male-to-Male Jumper Wires | Electrical connections between components |
-| 5 | **Power Supply** | USB Type-A Connector | Power delivery to ESP8266 via USB |
-| 6 | **Development IDE** | Arduino IDE | Code compilation and flashing |
-| 7 | **IoT Platform** | Blynk | Dashboard, alerts, and data visualization |
+<div align="center">
 
-### 🖼️ Component Highlights
+<img src="https://media.giphy.com/media/l3fQjHugtGPGKQ8tO/giphy.gif" width="100%" height="4"/>
 
-<details>
-<summary>📦 ESP8266 NodeMCU</summary>
+</div>
 
-- **Processor:** 80 MHz Tensilica L106 RISC
-- **Flash:** 4 MB
-- **Wi-Fi:** 802.11 b/g/n
-- **GPIO Pins:** 17 (11 usable)
-- **I²C Support:** Yes (D1=SCL, D2=SDA)
-- **Operating Voltage:** 3.3V
-- **Cost:** ~₹150
-
-</details>
-
-<details>
-<summary>📦 MPU6050 (6-Axis IMU)</summary>
-
-- **Accelerometer Range:** ±2g / ±4g / ±8g / ±16g
-- **Gyroscope Range:** ±250 / ±500 / ±1000 / ±2000 °/s
-- **Interface:** I²C (up to 400 kHz)
-- **Motion Interrupt:** Hardware interrupt for fall/motion events
-- **High-Pass Filter:** Configurable (0.63 Hz used in this project)
-- **Operating Voltage:** 3.3V–5V
-- **Cost:** ~₹120
-
-</details>
-
----
-
-## 💻 Software & Libraries
-
-### 🛠️ Development Environment
-
-| Tool | Version | Purpose |
-|------|---------|---------|
-| **Arduino IDE** | ≥ 1.8.x | Code editing, compilation & flashing |
-| **ESP8266 Board Package** | Latest | ESP8266 core support |
-| **Blynk Library** | ≥ 1.0.0 | IoT platform integration |
-| **Adafruit MPU6050** | ≥ 2.2.x | MPU6050 sensor abstraction |
-| **Adafruit Unified Sensor** | ≥ 1.1.x | Sensor event abstraction layer |
-| **Wire (Built-in)** | Built-in | I²C communication |
-| **ESP8266WiFi (Built-in)** | Built-in | Wi-Fi connectivity |
-
-### 📦 Library Dependencies
-
-```cpp
-#include <ESP8266WiFi.h>         // Wi-Fi stack for ESP8266
-#include <WiFiClient.h>          // TCP/IP client
-#include <BlynkSimpleEsp8266.h>  // Blynk IoT integration
-#include <Adafruit_MPU6050.h>    // MPU6050 driver
-#include <Adafruit_Sensor.h>     // Unified sensor abstraction
-#include <Wire.h>                // I²C protocol
-```
-
-### 🌐 Communication Protocol
-
-```
-ESP8266  ──[I²C]──>  MPU6050
-ESP8266  ──[Wi-Fi / TCP]──>  Blynk Cloud Server
-Blynk Cloud  ──[Push Notification]──>  Caregiver Smartphone
-```
-
----
-
-## ⚙️ Working Principle
-
-The system follows a **hardware-interrupt driven** architecture for minimal latency:
-
-```
-Step 1: POWER ON
-    └── ESP8266 boots → Serial initialized at 115200 baud
-    └── Wi-Fi connection established
-    └── Blynk cloud connection authenticated
-
-Step 2: MPU6050 INITIALIZATION
-    └── I²C communication established with sensor
-    └── High-Pass Filter set to 0.63 Hz (removes DC gravity component)
-    └── Motion Detection Threshold set to 1 (sensitive)
-    └── Motion Detection Duration set to 20 ms
-    └── Interrupt pin configured (Latched, Active-High)
-    └── Motion Interrupt ENABLED
-
-Step 3: CONTINUOUS MONITORING (Every 100 ms)
-    └── BlynkTimer fires → sendSensor() called
-    └── Check: mpu.getMotionInterruptStatus() ?
-         ├── NO  → Return (no significant motion)
-         └── YES → Proceed to Step 4
-
-Step 4: FALL EVENT DETECTED
-    └── Read sensor event: acceleration + gyroscope
-    └── Log to Serial Monitor (AccelY, AccelZ, GyroX, GyroY, GyroZ)
-    └── Push data to Blynk virtual pins:
-         ├── V1 ← AccelY (m/s²)
-         ├── V2 ← AccelZ (m/s²)
-         ├── V3 ← GyroX  (rad/s)
-         ├── V4 ← GyroY  (rad/s)
-         └── V5 ← GyroZ  (rad/s)
-
-Step 5: CAREGIVER ALERT
-    └── Blynk triggers push notification on caregiver's phone
-    └── Dashboard updates with real-time sensor readings
-    └── 200 ms delay → system resumes monitoring
-```
-
----
-
-## 🔌 Circuit Connections
-
-### I²C Pin Mapping: ESP8266 ↔ MPU6050
-
-| MPU6050 Pin | ESP8266 Pin | NodeMCU Label | Function |
-|-------------|-------------|---------------|----------|
-| `VCC` | `3V3` | 3.3V | Power Supply |
-| `GND` | `GND` | GND | Ground |
-| `SCL` | `GPIO5` | D1 | I²C Clock |
-| `SDA` | `GPIO4` | D2 | I²C Data |
-| `INT` | *(optional)* | — | Hardware Interrupt Pin |
-| `AD0` | `GND` | GND | I²C Address = 0x68 |
-
-### Blynk Virtual Pin Mapping
-
-| Blynk Virtual Pin | Sensor Data | Unit |
-|-------------------|-------------|------|
-| `V1` | Acceleration Y-axis | m/s² |
-| `V2` | Acceleration Z-axis | m/s² |
-| `V3` | Gyroscope X-axis | rad/s |
-| `V4` | Gyroscope Y-axis | rad/s |
-| `V5` | Gyroscope Z-axis | rad/s |
-
----
-
-## 🚀 Installation & Setup
-
-### Step 1: Prerequisites
-
-- ✅ [Arduino IDE](https://www.arduino.cc/en/software) installed
-- ✅ [ESP8266 Board Package](https://dl.espressif.com/dl/package_esp32_index.json) added
-- ✅ Blynk account created at [blynk.cloud](https://blynk.cloud)
-
-### Step 2: Install Board Support
-
-In Arduino IDE → **File → Preferences → Additional Board Manager URLs**:
-```
-https://arduino.esp8266.com/stable/package_esp8266com_index.json
-```
-Then: **Tools → Board → Boards Manager** → Search `ESP8266` → Install
-
-### Step 3: Install Libraries
-
-In Arduino IDE → **Sketch → Include Library → Manage Libraries**:
-
-```
-✔ Blynk                  by Volodymyr Shymanskyy
-✔ Adafruit MPU6050       by Adafruit
-✔ Adafruit Unified Sensor by Adafruit
-```
-
-### Step 4: Clone the Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/elderly-fall-detection.git
-cd elderly-fall-detection
-```
-
-### Step 5: Configure Credentials
-
-Open `final_iot.ino` and update these fields:
-
-```cpp
-// ── Blynk Configuration ──────────────────────────────────
-#define BLYNK_TEMPLATE_ID   "YOUR_TEMPLATE_ID"
-#define BLYNK_TEMPLATE_NAME "Elderly Fall System"
-#define BLYNK_AUTH_TOKEN    "YOUR_AUTH_TOKEN"
-
-// ── Wi-Fi Credentials ────────────────────────────────────
-char ssid[] = "YOUR_WIFI_SSID";
-char pass[] = "YOUR_WIFI_PASSWORD";
-```
-
-### Step 6: Configure Blynk Dashboard
-
-In the Blynk app, create **5 Gauge / Graph widgets** mapped to:
-
-| Widget | Virtual Pin | Label |
-|--------|-------------|-------|
-| Gauge | V1 | Accel Y |
-| Gauge | V2 | Accel Z |
-| Gauge | V3 | Gyro X |
-| Gauge | V4 | Gyro Y |
-| Gauge | V5 | Gyro Z |
-
-### Step 7: Flash the Code
-
-1. Connect ESP8266 via USB
-2. Select Board: **Tools → Board → NodeMCU 1.0 (ESP-12E Module)**
-3. Select Port: **Tools → Port → COMx**
-4. Click **Upload** (Ctrl+U)
-5. Open **Serial Monitor** at `115200 baud` to verify
-
----
-
-## 📁 Code Structure
-
-```
-final_iot.ino
-├── [Preprocessor Defines]
-│   ├── BLYNK_TEMPLATE_ID       → Blynk project template identifier
-│   ├── BLYNK_TEMPLATE_NAME     → Human-readable project name
-│   └── BLYNK_AUTH_TOKEN        → Device authentication token
-│
-├── [Global Objects & Variables]
-│   ├── Adafruit_MPU6050 mpu    → MPU6050 sensor instance
-│   ├── char auth[]             → Blynk auth token
-│   ├── char ssid[] / pass[]    → Wi-Fi credentials
-│   └── BlynkTimer timer        → Non-blocking timer for periodic calls
-│
-├── [void setup()]              → Runs once on boot
-│   ├── Serial.begin(115200)    → Debug serial initialization
-│   ├── WiFi.begin(ssid, pass)  → Wi-Fi connection
-│   ├── mpu.begin()             → I²C sensor initialization
-│   ├── setHighPassFilter()     → 0.63 Hz HPF to remove gravity bias
-│   ├── setMotionDetectionThreshold(1)    → Sensitivity = 1 (highest)
-│   ├── setMotionDetectionDuration(20)    → 20 ms duration window
-│   ├── setInterruptPinLatch(true)        → Latched interrupt
-│   ├── setInterruptPinPolarity(true)     → Active-high polarity
-│   ├── setMotionInterrupt(true)          → Enable hardware interrupt
-│   ├── Blynk.begin(auth, ssid, pass)     → Cloud connection
-│   └── timer.setInterval(100L, sendSensor) → 100 ms polling
-│
-└── [void sendSensor()]         → Core detection & reporting function
-    ├── mpu.getMotionInterruptStatus()    → Hardware fall trigger check
-    ├── mpu.getEvent(&a, &g, &temp)       → Read accel/gyro/temp data
-    ├── Serial.print(...)                 → Debug output to serial
-    ├── Blynk.virtualWrite(V1, a.acceleration.y)  → AccelY → cloud
-    ├── Blynk.virtualWrite(V2, a.acceleration.z)  → AccelZ → cloud
-    ├── Blynk.virtualWrite(V3, g.gyro.x)          → GyroX  → cloud
-    ├── Blynk.virtualWrite(V4, g.gyro.y)          → GyroY  → cloud
-    └── Blynk.virtualWrite(V5, g.gyro.z)          → GyroZ  → cloud
-```
-
-### 🧠 Detection Algorithm Explained
-
-The MPU6050's **hardware motion interrupt** is the backbone of fall detection:
-
-| Parameter | Value | Rationale |
-|-----------|-------|-----------|
-| High-Pass Filter | `MPU6050_HIGHPASS_0_63_HZ` | Removes static gravity component (9.8 m/s²), leaving only dynamic motion |
-| Motion Threshold | `1` | Minimum register unit; maximum sensitivity to detect sudden impacts |
-| Motion Duration | `20 ms` | Motion must persist ≥ 20 ms to trigger — filters out electrical noise |
-| Interrupt Latch | `true` | Holds the interrupt flag until software reads the status register |
-| Interrupt Polarity | `true` (Active High) | Standard active-high logic for microcontroller GPIO |
-
-When a fall occurs:
-1. Gravity vector rapidly changes direction (detected by accelerometer)
-2. Angular velocity spikes (detected by gyroscope)
-3. Both exceed the motion threshold for ≥ 20 ms
-4. Hardware interrupt fires → software reads all 5 axes → Blynk alert sent
-
----
-
-## 🔄 Project Workflow
-
-```mermaid
-flowchart TD
-    A([🔌 Power ON]) --> B[Initialize Serial\n115200 baud]
-    B --> C[Connect to Wi-Fi\nSSID: Amit1]
-    C --> D{Wi-Fi\nConnected?}
-    D -- No --> C
-    D -- Yes --> E[Initialize MPU6050\nvia I²C]
-    E --> F{MPU6050\nFound?}
-    F -- No --> G([❌ Halt - Sensor Error])
-    F -- Yes --> H[Configure Motion Detection\nHPF=0.63Hz / Threshold=1 / Duration=20ms]
-    H --> I[Enable Motion Interrupt]
-    I --> J[Connect to Blynk Cloud]
-    J --> K[Start 100ms Timer]
-    K --> L([🔁 Main Loop])
-    L --> M[Blynk.run + timer.run]
-    M --> N[sendSensor called\nevery 100ms]
-    N --> O{Motion\nInterrupt\nTriggered?}
-    O -- No --> M
-    O -- Yes --> P[Read AccelY, AccelZ\nGyroX, GyroY, GyroZ]
-    P --> Q[Print to Serial Monitor]
-    Q --> R[Send to Blynk\nVirtual Pins V1–V5]
-    R --> S[🔔 Caregiver Alert\nPush Notification]
-    S --> T[200ms Delay]
-    T --> M
-
-    style A fill:#00B4D8,stroke:#0077B6,color:#fff
-    style G fill:#e63946,stroke:#c1121f,color:#fff
-    style S fill:#2dc653,stroke:#1a7a32,color:#fff
-    style L fill:#023e8a,stroke:#0077B6,color:#fff
-```
-
----
-
-## 📸 Results & Demonstration
+| # | Component | Purpose | Qty |
+|:---:|:---|:---|:---:|
+| 1 | **ESP8266 NodeMCU v1.0** | Main processor + Wi-Fi module | 1 |
+| 2 | **MPU6050 GY-521** | 3-axis Accelerometer + 3-axis Gyroscope | 1 |
+| 3 | **Breadboard** | Prototyping base | 1 |
+| 4 | **Jumper Wires (M-M)** | GPIO connections | ~10 |
+| 5 | **USB Micro-A Cable** | Programming & power supply | 1 |
+| 6 | **5V Power Bank** | Portable power for wearable use | 1 |
 
 <div align="center">
 
-### 📷 Circuit Diagram
-> *Circuit schematic showing ESP8266 ↔ MPU6050 I²C wiring on breadboard*
+### ESP8266 NodeMCU
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/NodeMCU_DEVKIT_1.0.jpg/320px-NodeMCU_DEVKIT_1.0.jpg" width="220" alt="ESP8266 NodeMCU"/>
 
-```
-[ Circuit Diagram Image Placeholder ]
-Add your circuit diagram as: docs/circuit_diagram.png
-```
-
----
-
-### 🔧 Hardware Setup
-> *Assembled prototype with ESP8266 NodeMCU and MPU6050 on breadboard*
-
-```
-[ Hardware Setup Image Placeholder ]
-Add your hardware photo as: docs/hardware_setup.jpg
-```
-
----
-
-### 📱 Blynk Dashboard
-> *Live sensor data visualization on Blynk mobile/web dashboard*
-
-```
-[ Blynk Dashboard Screenshot Placeholder ]
-Add your Blynk screenshot as: docs/blynk_dashboard.png
-```
-
----
-
-### 🖥️ Serial Monitor Output
-> *Real-time serial output showing detected fall events*
-
-```
-Connecting to Amit1........
-WiFi connected
-Adafruit MPU6050 test!
-MPU6050 Found!
-
-AccelY:8.93,AccelZ:-3.21, GyroX:0.12,GyroY:-0.45,GyroZ:0.07
-AccelY:2.10,AccelZ:-9.72, GyroX:1.83,GyroY: 2.34,GyroZ:1.21
-              ⬆️ FALL EVENT DETECTED
-```
+### MPU6050 (GY-521)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/MPU-6050_Inertial_Measurement_Unit_%28IMU%29_Sensor_Module.jpg/320px-MPU-6050_Inertial_Measurement_Unit_%28IMU%29_Sensor_Module.jpg" width="220" alt="MPU6050 Sensor"/>
 
 </div>
 
 ---
 
-## 🌍 Applications
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
-| Domain | Application |
-|--------|-------------|
-| 🏠 **Home Care** | Independent elderly living with remote caregiver monitoring |
-| 🏥 **Hospitals** | Patient fall prevention in wards and ICUs |
-| 🧓 **Assisted Living** | Smart nursing home safety infrastructure |
-| 🚑 **Emergency Response** | Automated emergency services notification |
-| 💊 **Rehabilitation** | Post-surgery patient fall monitoring |
-| 🏃 **Sports Medicine** | Athlete fall/impact detection during training |
-| 🌐 **Smart Cities** | Public space elderly safety networks |
-| 🤖 **Robotics** | Human-robot interaction safety systems |
+## 🔌 Circuit Connections
+
+```
+ESP8266 NodeMCU              MPU6050 (GY-521)
+┌─────────────────┐          ┌──────────────────┐
+│   3.3V  ────────┼──────────┼── VCC            │
+│   GND   ────────┼──────────┼── GND            │
+│ D2/GPIO4 ───────┼──────────┼── SDA  (I2C Data)│
+│ D1/GPIO5 ───────┼──────────┼── SCL  (I2C CLK) │
+│                 │          │   AD0 ─── GND    │
+└─────────────────┘          └──────────────────┘
+```
+
+| MPU6050 Pin | ESP8266 Pin | Notes |
+|:---:|:---:|:---|
+| VCC | 3.3V | ⚠️ Do NOT use 5V — will damage sensor |
+| GND | GND | Common ground |
+| SDA | D2 (GPIO4) | I2C Data line |
+| SCL | D1 (GPIO5) | I2C Clock line |
+| AD0 | GND | Sets I2C address to `0x68` |
 
 ---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 💻 Software & Libraries
+
+**IDE:** Arduino IDE 2.x + ESP8266 Board Package
+
+| Library | Purpose | Install Via |
+|:---|:---|:---|
+| `ESP8266WiFi.h` | Wi-Fi stack for NodeMCU | Board package (built-in) |
+| `BlynkSimpleEsp8266.h` | Blynk cloud integration | Library Manager → *Blynk* |
+| `Adafruit_MPU6050.h` | MPU6050 IMU sensor driver | Library Manager → *Adafruit MPU6050* |
+| `Adafruit_Sensor.h` | Unified sensor abstraction | Library Manager → *Adafruit Unified Sensor* |
+| `Wire.h` | I2C communication | Built-in |
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## ⚙️ How It Works
+
+<div align="center">
+<img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="100%" height="3"/>
+</div>
+
+### Step-by-Step Operation
+
+**1. Boot & Connect**
+ESP8266 connects to Wi-Fi (`Amit1`) and initializes MPU6050 over I2C. Serial monitor confirms both connections at 115200 baud.
+
+**2. Motion Detection Setup**
+MPU6050 is configured with:
+- 🔹 High-pass filter: `0.63 Hz` — removes gravity drift, captures only sudden movements
+- 🔹 Threshold: `1` — sensitivity level for motion detection
+- 🔹 Duration: `20 ms` — motion must last 20ms (eliminates vibration noise)
+- 🔹 Latch mode: `true` — interrupt stays active until explicitly cleared
+
+**3. Timer-Based Polling**
+`BlynkTimer` triggers `sendSensor()` every **100ms** — non-blocking, so Blynk stays connected.
+
+**4. Fall Detection**
+Inside `sendSensor()`, the MPU6050's interrupt flag is checked. If raised:
+- All 5 axes are read: `AccelY`, `AccelZ`, `GyroX`, `GyroY`, `GyroZ`
+- Data is logged to Serial Monitor
+- Values pushed to Blynk virtual pins **V1–V5**
+
+**5. Cloud Alert**
+Blynk receives the data spike and notifies the caregiver's app instantly.
+
+### Virtual Pin Mapping
+
+| Virtual Pin | Sensor Value | Unit | What It Tells Us |
+|:---:|:---:|:---:|:---|
+| V1 | AccelY | m/s² | Forward/backward tilt |
+| V2 | AccelZ | m/s² | Vertical impact (key fall indicator) |
+| V3 | GyroX | rad/s | Roll rate |
+| V4 | GyroY | rad/s | Pitch rate |
+| V5 | GyroZ | rad/s | Yaw rate |
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 🔄 Project Workflow
+
+```mermaid
+flowchart TD
+    A([🟢 Power ON]) --> B[Init Serial 115200 baud]
+    B --> C[Connect Wi-Fi]
+    C --> D{Connected?}
+    D -->|Retrying...| C
+    D -->|✅ Yes| E[Init MPU6050 via I2C]
+    E --> F{Sensor Found?}
+    F -->|❌ No| G([🔴 Halt: Sensor Error])
+    F -->|✅ Yes| H[Configure Motion Interrupt\nThreshold=1 · Duration=20ms\nHPF=0.63Hz]
+    H --> I[Connect to Blynk Cloud]
+    I --> J[Set Timer: 100ms interval]
+    J --> K{⏱️ Timer Fires?}
+    K --> L{Motion Interrupt\nDetected?}
+    L -->|No| K
+    L -->|⚠️ Yes - FALL!| M[Read AccelY/Z · GyroX/Y/Z]
+    M --> N[Print to Serial Monitor]
+    N --> O[Write to Blynk V1–V5]
+    O --> P[☁️ Blynk Cloud Processes]
+    P --> Q([🔔 Push Notification\nto Caregiver Phone])
+    Q --> K
+
+    style A fill:#00C853,color:#fff,stroke:#00C853
+    style G fill:#D32F2F,color:#fff,stroke:#D32F2F
+    style Q fill:#FF6F00,color:#fff,stroke:#FF6F00
+    style P fill:#1565C0,color:#fff,stroke:#1565C0
+```
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 🚀 Setup Guide
+
+**1. Install ESP8266 board in Arduino IDE**
+> File → Preferences → Additional Board URLs:
+```
+https://dl.espressif.com/dl/package_esp32_index.json
+```
+Then: Tools → Board Manager → search `ESP8266` → Install
+
+**2. Install required libraries** via Tools → Manage Libraries:
+```
+Blynk · Adafruit MPU6050 · Adafruit Unified Sensor
+```
+
+**3. Create a Blynk Template** at [blynk.cloud](https://blynk.cloud)
+- Add 5 datastreams: V1–V5 (type: Double)
+- Copy your Template ID, Template Name, and Auth Token
+
+**4. Update credentials in the `.ino` file:**
+```cpp
+#define BLYNK_TEMPLATE_ID   "YOUR_TEMPLATE_ID"
+#define BLYNK_TEMPLATE_NAME "YOUR_TEMPLATE_NAME"
+#define BLYNK_AUTH_TOKEN    "YOUR_AUTH_TOKEN"
+
+char ssid[] = "YOUR_WIFI_NAME";
+char pass[] = "YOUR_WIFI_PASSWORD";
+```
+
+**5. Upload & Verify**
+- Board: `NodeMCU 1.0 (ESP-12E Module)`
+- Serial Monitor: `115200 baud`
+- Expected output:
+```
+Connecting to YourWiFi
+..........WiFi connected
+MPU6050 Found!
+AccelY:0.12, AccelZ:-9.78, GyroX:0.01, GyroY:0.02, GyroZ:-0.01
+```
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 📸 Demo & Output
+
+<div align="center">
+
+| Circuit Setup | Blynk Dashboard |
+|:---:|:---:|
+| ![Circuit](assets/images/circuit_setup.jpg) | ![Dashboard](assets/images/blynk_dashboard.jpg) |
+| *ESP8266 + MPU6050 wired on breadboard* | *Live sensor readings on Blynk app* |
+
+| Fall Alert Notification | Serial Monitor Output |
+|:---:|:---:|
+| ![Alert](assets/images/fall_alert.jpg) | ![Serial](assets/images/serial_output.jpg) |
+| *Push notification triggered on caregiver phone* | *115200 baud serial data stream* |
+
+> 📷 Replace image paths with your actual project photos.
+
+<br/>
+
+<img src="https://media.giphy.com/media/077i6AULCXc0FKTj9s/giphy.gif" width="380" alt="IoT Dashboard Animation"/>
+
+</div>
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ## 🚀 Future Enhancements
 
-<details>
-<summary>🤖 AI/ML-Based Predictive Fall Detection</summary>
-
-- Train a TinyML model (TensorFlow Lite) directly on ESP32
-- Predict fall probability from gait patterns *before* the fall happens
-- Reduce false positives from rapid but safe movements (e.g., sitting down quickly)
-
-</details>
-
-<details>
-<summary>📱 Dedicated Mobile Application</summary>
-
-- Custom Flutter/React Native app replacing Blynk dependency
-- Historical fall data timeline and frequency charts
-- Multi-caregiver notification routing and on-call scheduling
-
-</details>
-
-<details>
-<summary>📍 GPS Location Tracking</summary>
-
-- Add NEO-6M GPS module for outdoor fall location mapping
-- Send precise Google Maps coordinates in emergency alerts
-- Geofence alerts if elderly person wanders outside safe zones
-
-</details>
-
-<details>
-<summary>☁️ Cloud Analytics Dashboard</summary>
-
-- AWS IoT Core / Google Cloud IoT integration
-- Fall event analytics: frequency, time-of-day patterns, high-risk zones
-- Physician-facing health dashboard with trend reports
-
-</details>
-
-<details>
-<summary>🔋 Battery & Power Optimization</summary>
-
-- Deep-sleep mode between readings for multi-day battery life
-- Wireless charging integration
-- Solar-powered variant for outdoor use
-
-</details>
-
-<details>
-<summary>🎙️ Voice & Audio Alerts</summary>
-
-- Onboard buzzer/speaker for local alarm
-- Voice confirmation: *"Fall detected. Help is on the way."*
-- Integration with Amazon Alexa / Google Home for smart home alerting
-
-</details>
-
-<details>
-<summary>📳 Haptic Feedback & SOS Button</summary>
-
-- Vibration motor to confirm device is operational
-- Physical SOS button for manual emergency trigger
-- Dual-confirmation (auto + manual) for reduced false negatives
-
-</details>
+| Enhancement | Description |
+|:---|:---|
+| 🤖 **AI Fall Prediction** | TensorFlow Lite model on-device to predict falls before they happen |
+| 📱 **Custom Mobile App** | Flutter/React Native app with SOS button and caregiver management |
+| 🗺️ **GPS Tracking** | NEO-6M GPS module for real-time location during fall events |
+| ❤️ **Vitals Monitoring** | MAX30102 for heart rate + SpO2 alongside motion detection |
+| ☁️ **Analytics Dashboard** | Web dashboard with fall history, frequency charts, and health trends |
+| ⌚ **Wearable PCB** | Custom PCB + 3D-printed enclosure for a wristband form factor |
 
 ---
 
-## 📂 Folder Structure
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 📁 Folder Structure
 
 ```
-📦 elderly-fall-detection/
-├── 📂 src/
-│   └── 📄 final_iot.ino          # Main Arduino firmware
-├── 📂 docs/
-│   ├── 🖼️ circuit_diagram.png    # Wiring schematic
-│   ├── 🖼️ hardware_setup.jpg     # Physical prototype photo
-│   ├── 🖼️ blynk_dashboard.png    # Blynk app screenshot
-│   └── 📑 ppt.pptx               # Project presentation
-├── 📂 schematics/
-│   └── 📄 fritzing_diagram.fzz   # Fritzing circuit file
-├── 📄 README.md                  # Project documentation
-└── 📄 LICENSE                    # MIT License
+elderly-fall-detection/
+├── 📄 README.md
+├── 📄 LICENSE
+├── 📁 src/
+│   └── final_iot.ino          # Main Arduino source code
+├── 📁 assets/
+│   └── images/                # Circuit & demo photos
+└── 📁 docs/
+    └── presentation.pptx      # Project presentation
 ```
 
 ---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ## 👤 Author
 
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/00000000?v=4" width="100" style="border-radius: 50%"/>
+<img src="https://avatars.githubusercontent.com/yourusername" width="100" style="border-radius:50%" alt="avatar"/>
 
-### **Your Name Here**
+### **Your Name**
+*IoT Developer · Embedded Systems · Healthcare Tech*
 
-*Embedded Systems Engineer · IoT Developer · Arduino Enthusiast*
-
-[![GitHub](https://img.shields.io/badge/GitHub-@YourUsername-181717?style=for-the-badge&logo=github)](https://github.com/YourUsername)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/YourProfile)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:your.email@example.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-00B4D8?style=for-the-badge&logo=firefox)](https://yourportfolio.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
 
 </div>
 
@@ -629,39 +383,12 @@ AccelY:2.10,AccelZ:-9.72, GyroX:1.83,GyroY: 2.34,GyroZ:1.21
 
 ## 📄 License
 
-```
-MIT License
-
-Copyright (c) 2024 Your Name
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-```
-
----
+Licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
 
 <div align="center">
 
-### ⭐ If this project helped you, please give it a star!
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Built%20with%20❤️%20to%20protect%20our%20elders&fontSize=18&fontColor=ffffff&animation=twinkling" width="100%"/>
 
-[![Star History Chart](https://api.star-history.com/svg?repos=YourUsername/elderly-fall-detection&type=Date)](https://star-history.com/#YourUsername/elderly-fall-detection&Date)
-
----
-
-*Made with ❤️ for the safety of our elderly loved ones*
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=00B4D8&height=100&section=footer)
+⭐ **If this project helped you, please give it a star!** ⭐
 
 </div>
-
