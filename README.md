@@ -271,6 +271,8 @@ AccelY:0.12, AccelZ:-9.78, GyroX:0.01, GyroY:0.02, GyroZ:-0.01
 
 ![Image Alt](https://github.com/Haridharan1412/IOT-Elderly-Fall-Detection-/blob/ab01cf05e2c0651d26edaa6f10d243467464dfe0/connection.png)
 
+<img width="3622" height="1796" alt="Image" src="https://github.com/user-attachments/assets/1be53f37-2a8f-41eb-8753-620217b4aeb0" />
+
 <br/>
 
 </div>
