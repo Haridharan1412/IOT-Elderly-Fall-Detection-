@@ -27,7 +27,7 @@ Adafruit_MPU6050 mpu;
 
 char auth[] = BLYNK_AUTH_TOKEN;
 
-char ssid[] = "Amit1";
+char ssid[] = "Hari1";
 char pass[] = "12345678";
 
 BlynkTimer timer;
